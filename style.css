@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    background:  hsla(215, 64%, 24%, 1);
+
+    background: hsla(215, 64%, 24%, 1);
+
+    background: hsla(215, 55%, 29%, 1);
+
+    background: linear-gradient(90deg, hsla(215, 55%, 29%, 1) 26%, hsla(182, 75%, 47%, 1) 99%);
+    
+    background: -moz-linear-gradient(90deg, hsla(215, 55%, 29%, 1) 26%, hsla(182, 75%, 47%, 1) 99%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(215, 55%, 29%, 1) 26%, hsla(182, 75%, 47%, 1) 99%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#214373", endColorstr="#1ecad0", GradientType=1 );
+
+filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#163765", endColorstr="#f79b2a", GradientType=1 );
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#163765", endColorstr="#f79b2a", GradientType=1 );
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container */
+  .container {
+    width: 90%;
+    max-width: 400px;
+    margin: 50px auto;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Search Box */
+  .search-box {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .search-box input {
+    padding: 10px;
+    width: 70%;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .search-box button {
+    padding: 10px;
+    background: #ff9800;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+  }
+  
+  .search-box button:hover {
+    background: #e68900;
+  }
+  
+  .current-location button {
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 30px; 
+    background-color: rgb(0, 128, 96); 
+    border: 2px solid black;
+  }
+  
+  .current-location button:hover {
+    background: rgb(113, 168, 155);
+  }
+  
+  /* Weather Info */
+  .weather-info {
+    margin-top: 20px;
+  }
+  
+  .weather-info h2 {
+    margin-bottom: 10px;
+  }
+  
+  #weather-icon {
+    width: 80px;
+    height: 80px;
+  }
+  
+  #temperature {
+    font-size: 2em;
+    margin: 10px 0;
+  }
+  
+  #description {
+    font-style: italic;
+    font-size: 1.2em;
+  }
+  
+  .extra-info {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  
+  .extra-info p {
+    font-size: 1em;
+  }
